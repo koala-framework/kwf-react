@@ -1,5 +1,5 @@
 {
-  "name": "koala-framework/kwf-react",
+  "name": "koala-framework/kwf-reactjs",
   "description": "React Integration for Koala Framework",
   "homepage": "http://www.koala-framework.org/",
   "license": "BSD-2-Clause",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Kwf_React_": ""
+      "React_": ""
     }
   },
   "minimum-stability": "dev",

@@ -1,0 +1,22 @@
+{
+  "name": "koala-framework/kwf-react",
+  "description": "React Integration for Koala Framework",
+  "homepage": "http://www.koala-framework.org/",
+  "license": "BSD-2-Clause",
+  "type": "library",
+  "require": {
+    "koala-framework/koala-framework": "~4.1"
+  },
+  "extra": {
+    "require-bower": {
+      "react": "^15.3.0"
+    }
+  },
+  "autoload": {
+    "psr-0": {
+      "Kwf_React_": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

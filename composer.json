@@ -8,12 +8,11 @@
         "koala-framework/koala-framework": "~4.1"
     },
     "extra": {
-        "require-bower": {
+        "require-npm": {
+            "babel-preset-react": "~6.11.1",
             "react": "^15.3.0"
         },
-        "require-npm": {
-            "babel-preset-react": "~6.11.1"
-        }
+        "expose-npm-packages": true
     },
     "autoload": {
         "psr-0": {

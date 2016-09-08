@@ -13,11 +13,6 @@
             "react": "^15.3.0",
             "react-dom": "^15.3.0"
         },
-        "require-dev-npm": {
-            "mocha": "^3.0.2",
-            "expect": "^1.20.2",
-            "babel-register": "^6.14.0"
-        },
         "expose-npm-packages": true
     },
     "autoload": {
@@ -25,7 +20,6 @@
             "React_": ""
         }
     },
-    "bin": ["bin/test-reactjs"],
     "minimum-stability": "dev",
     "prefer-stable": true
 }

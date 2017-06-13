@@ -80,7 +80,7 @@ class React_Assets_Dependency_File_Jsx extends Kwf_Assets_Dependency_File
 
         if ($useTrl) {
             $trlData = array();
-            foreach (Kwf_TrlJsParser_JsParser::parseContent($contents) as $trlElement) {
+            foreach (Kwf_TrlJsParser_JsParser::parseContent($contents, true) as $trlElement) {
                 $d = Kwf_Assets_Util_Trl::getJsReplacement($trlElement);
                 $map->stringReplace($d['before'], $d['replace']);
                 $trlData[] = $d['trlElement'];
